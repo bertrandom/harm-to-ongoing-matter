@@ -1,0 +1,8 @@
+{
+    "twitter": {
+        "client_id": "xxx",
+        "client_secret": "xxx",
+        "access_token": "xxx",
+        "access_token_secret": "xxx"
+    }
+}
