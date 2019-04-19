@@ -23,7 +23,7 @@ var postReply = function(index) {
 
         var mediaIdStr = data.media_id_string;
 
-        var params = { status: 'harm to ongoing matter', in_reply_to_status_id: '1119119964797976576', media_ids: [mediaIdStr] }
+        var params = { status: 'harm to ongoing matter', in_reply_to_status_id: config.status_id, media_ids: [mediaIdStr] }
 
         T.post('statuses/update', params, function (err, data, response) {
 
